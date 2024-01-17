@@ -38,14 +38,23 @@ UTILS------------------------------------------------------
   display: block;
   clear: both;
 }
+ */
 
-DEBUG---------------------------------------------------------
-
+/* DEBUG----------------------------------------------------*/
 
 .debug {
-  min-height: 80px;
   background-color: lightgrey;
-  padding: 2rem;
+
   border: 3px dashed red;
 }
- */
+
+/* CSS------------------------------------------------- */
+
+.container-fluid {
+  height: 100vh;
+}
+
+.slides-container {
+  width: 1200px;
+  height: 800px;
+}
