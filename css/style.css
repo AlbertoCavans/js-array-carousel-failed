@@ -60,13 +60,15 @@ UTILS------------------------------------------------------
   border-radius: 20px;
 }
 
-.carousel-box {
+#carousel-box {
   height: 100%;
+  justify-content: end;
 }
 
 .slide {
-  width: 100%;
-  object-fit: 100%;
+  object-fit: cover;
+  height: 810px;
+  width: 1400px;
 }
 
 .arrowUp,
