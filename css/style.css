@@ -56,7 +56,8 @@ UTILS------------------------------------------------------
 
 .slides-container {
   width: 1000px;
-  height: 800px;
+  height: 810px;
+  border-radius: 20px;
 }
 
 .carousel-box {
