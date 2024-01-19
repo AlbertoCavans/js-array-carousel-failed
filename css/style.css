@@ -55,8 +55,8 @@ UTILS------------------------------------------------------
 }
 
 .slides-container {
-  width: 800px;
-  height: 650px;
+  width: 1000px;
+  height: 800px;
 }
 
 .carousel-box {
@@ -89,4 +89,15 @@ UTILS------------------------------------------------------
 
 .arrowDown {
   bottom: 20px;
+}
+
+.arrowUp:hover,
+.arrowDown:hover {
+  background-color: rgba(240, 248, 255, 0.311);
+}
+
+.arrowUp:active,
+.arrowDown:active {
+  background-color: rgba(240, 248, 255, 0.311);
+  border: 1px solid limegreen;
 }
