@@ -55,11 +55,38 @@ UTILS------------------------------------------------------
 }
 
 .slides-container {
-  width: 1200px;
-  height: 800px;
+  width: 800px;
+  height: 650px;
+}
+
+.carousel-box {
+  height: 100%;
 }
 
 .slide {
   width: 100%;
   object-fit: 100%;
+}
+
+.arrowUp,
+.arrowDown {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.411);
+}
+
+.arrowUp {
+  top: 20px;
+}
+
+.arrowDown {
+  bottom: 20px;
 }
