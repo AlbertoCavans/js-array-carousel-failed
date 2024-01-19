@@ -1,5 +1,7 @@
 /* LINKS TO HTML */
 const carouselBox = document.getElementById("carousel-box");
+const arrowUp = document.getElementById("arrowUp");
+const arrowDown = document.getElementById("arrowDown");
 
 /* ARRAY */
 const slides = ["01.webp", "02.webp", "03.webp", "04.webp", "05.webp"];
@@ -22,5 +24,7 @@ for (let i = 0; i < slides.length; i++) {
 carouselBox.innerHTML = slidesHTMLimg;
 
 /* BUTTON UP */
+
+arrowUp.addEventListener("click", function () {});
 
 /* BUTTON DOWN */
